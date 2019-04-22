@@ -1,0 +1,46 @@
+{
+  "Name":"chickenfajitas",
+  "ingno": 8,
+  "ingredients": [
+      {
+      "name":"wraps",
+      "quant":4,
+      "unit": "none"
+      },
+      {
+      "name":"fajitamix",
+      "quant":100,
+      "unit": "g"
+      },
+      {
+      "name":"chickenbreast",
+      "quant":500,
+      "unit": "g"
+      },
+      {
+      "name":"redpepper",
+      "quant":1,
+      "unit": "none"
+      },
+      {
+      "name":"greenpepper",
+      "quant":1,
+      "unit": "none"
+      },
+      {
+      "name":"cheese",
+      "quant":100,
+      "unit": "g"
+      },
+      {
+      "name":"onion",
+      "quant": 1,
+      "unit": "none"
+      },
+      {
+      "name":"salsa",
+      "quant": 100,
+      "unit": "g"
+      }
+       ]
+  }

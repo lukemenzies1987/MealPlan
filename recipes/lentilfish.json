@@ -1,0 +1,41 @@
+{
+  "Name":"lentilsandfish",
+  "ingno": 7,
+  "ingredients": [
+      {
+      "name":"redlentils",
+      "quant":500,
+      "unit": "g"
+      },
+      {
+      "name":"fish",
+      "quant":500,
+      "unit": "g"
+      },
+      {
+      "name":"corriander",
+      "quant":100,
+      "unit": "g"
+      },
+      {
+      "name":"tumeric",
+      "quant":1,
+      "unit": "teaspoon"
+      },
+      {
+      "name":"cayennepepper",
+      "quant":0.5,
+      "unit": "teaspoon"
+      },
+      {
+      "name":"cumin",
+      "quant": 1,
+      "unit": "teaspoon"
+      },
+      {
+      "name":"lemon",
+      "quant": 1,
+      "unit": "none"
+      }
+       ]
+  }

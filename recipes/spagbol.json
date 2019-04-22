@@ -1,0 +1,41 @@
+{
+  "Name":"spagbol",
+  "ingno": 7,
+  "ingredients": [
+      {
+      "name":"pasta",
+      "quant":500,
+      "unit": "g"
+      },
+      {
+      "name":"cannedtomatoes",
+      "quant":500,
+      "unit": "g"
+      },
+      {
+      "name":"mincemeat",
+      "quant":500,
+      "unit": "g"
+      },
+      {
+      "name":"mushrooms",
+      "quant":100,
+      "unit": "g"
+      },
+      {
+      "name":"garlic",
+      "quant":3,
+      "unit": "cloves"
+      },
+      {
+      "name":"basil",
+      "quant":50,
+      "unit": "g"
+      },
+      {
+      "name":"onion",
+      "quant": 1,
+      "unit": "none"
+      }
+       ]
+  }

@@ -1,0 +1,631 @@
+\* Testing *\
+Minimize
+Sum_of_Transporting_Costs: 10000000 route__basil_chickenfajitas
+ + 10000000 route__basil_chilliconcarne + 0.007 route__basil_dump
+ + 10000000 route__basil_lentilsandfish + 0.007 route__basil_pastabake
+ + 0.007 route__basil_spagbol + 10000000 route__cannedtomatoes_chickenfajitas
+ + 10000000 route__cannedtomatoes_chilliconcarne
+ + 0.002 route__cannedtomatoes_dump
+ + 10000000 route__cannedtomatoes_lentilsandfish
+ + 10000000 route__cannedtomatoes_pastabake
+ + 0.002 route__cannedtomatoes_spagbol
+ + 10000000 route__cayennepepper_chickenfajitas
+ + 10000000 route__cayennepepper_chilliconcarne
+ + 0.0075 route__cayennepepper_dump
+ + 0.0075 route__cayennepepper_lentilsandfish
+ + 10000000 route__cayennepepper_pastabake
+ + 10000000 route__cayennepepper_spagbol + 0.0043 route__cheese_chickenfajitas
+ + 0.0043 route__cheese_chilliconcarne + 0.0043 route__cheese_dump
+ + 10000000 route__cheese_lentilsandfish + 0.0043 route__cheese_pastabake
+ + 10000000 route__cheese_spagbol + 0.008 route__chickenbreast_chickenfajitas
+ + 10000000 route__chickenbreast_chilliconcarne
+ + 0.008 route__chickenbreast_dump
+ + 10000000 route__chickenbreast_lentilsandfish
+ + 10000000 route__chickenbreast_pastabake
+ + 10000000 route__chickenbreast_spagbol
+ + 10000000 route__chillies_chickenfajitas
+ + 0.2 route__chillies_chilliconcarne + 0.2 route__chillies_dump
+ + 10000000 route__chillies_lentilsandfish
+ + 10000000 route__chillies_pastabake + 10000000 route__chillies_spagbol
+ + 10000000 route__corriander_chickenfajitas
+ + 10000000 route__corriander_chilliconcarne + 0.007 route__corriander_dump
+ + 0.007 route__corriander_lentilsandfish
+ + 10000000 route__corriander_pastabake + 10000000 route__corriander_spagbol
+ + 10000000 route__cumin_chickenfajitas + 0.0075 route__cumin_chilliconcarne
+ + 0.0075 route__cumin_dump + 0.0075 route__cumin_lentilsandfish
+ + 10000000 route__cumin_pastabake + 10000000 route__cumin_spagbol
+ + 0.01 route__fajitamix_chickenfajitas
+ + 10000000 route__fajitamix_chilliconcarne + 0.01 route__fajitamix_dump
+ + 10000000 route__fajitamix_lentilsandfish
+ + 10000000 route__fajitamix_pastabake + 10000000 route__fajitamix_spagbol
+ + 10000000 route__fish_chickenfajitas + 10000000 route__fish_chilliconcarne
+ + 0.004 route__fish_dump + 0.004 route__fish_lentilsandfish
+ + 10000000 route__fish_pastabake + 10000000 route__fish_spagbol
+ + 10000000 route__garlic_chickenfajitas
+ + 0.0333333333333 route__garlic_chilliconcarne
+ + 0.0333333333333 route__garlic_dump + 10000000 route__garlic_lentilsandfish
+ + 0.0333333333333 route__garlic_pastabake
+ + 0.0333333333333 route__garlic_spagbol
+ + 0.333333333333 route__greenpepper_chickenfajitas
+ + 0.333333333333 route__greenpepper_chilliconcarne
+ + 0.333333333333 route__greenpepper_dump
+ + 10000000 route__greenpepper_lentilsandfish
+ + 10000000 route__greenpepper_pastabake + 10000000 route__greenpepper_spagbol
+ + 10000000 route__lemon_chickenfajitas + 10000000 route__lemon_chilliconcarne
+ + 0.4 route__lemon_dump + 0.4 route__lemon_lentilsandfish
+ + 10000000 route__lemon_pastabake + 10000000 route__lemon_spagbol
+ + 10000000 route__mincemeat_chickenfajitas
+ + 0.008 route__mincemeat_chilliconcarne + 0.008 route__mincemeat_dump
+ + 10000000 route__mincemeat_lentilsandfish
+ + 10000000 route__mincemeat_pastabake + 0.008 route__mincemeat_spagbol
+ + 10000000 route__mushrooms_chickenfajitas
+ + 10000000 route__mushrooms_chilliconcarne + 0.0045 route__mushrooms_dump
+ + 10000000 route__mushrooms_lentilsandfish
+ + 0.0045 route__mushrooms_pastabake + 0.0045 route__mushrooms_spagbol
+ + 10000000 route__olives_chickenfajitas
+ + 10000000 route__olives_chilliconcarne + 0.02 route__olives_dump
+ + 10000000 route__olives_lentilsandfish + 0.02 route__olives_pastabake
+ + 10000000 route__olives_spagbol + 0.15 route__onion_chickenfajitas
+ + 0.15 route__onion_chilliconcarne + 0.15 route__onion_dump
+ + 10000000 route__onion_lentilsandfish + 0.15 route__onion_pastabake
+ + 0.15 route__onion_spagbol + 10000000 route__pasta_chickenfajitas
+ + 0.001 route__pasta_chilliconcarne + 0.001 route__pasta_dump
+ + 10000000 route__pasta_lentilsandfish + 0.001 route__pasta_pastabake
+ + 0.001 route__pasta_spagbol + 10000000 route__redlentils_chickenfajitas
+ + 10000000 route__redlentils_chilliconcarne + 0.0018 route__redlentils_dump
+ + 0.0018 route__redlentils_lentilsandfish
+ + 10000000 route__redlentils_pastabake + 10000000 route__redlentils_spagbol
+ + 0.333333333333 route__redpepper_chickenfajitas
+ + 10000000 route__redpepper_chilliconcarne
+ + 0.333333333333 route__redpepper_dump
+ + 10000000 route__redpepper_lentilsandfish
+ + 10000000 route__redpepper_pastabake + 10000000 route__redpepper_spagbol
+ + 10000000 route__rice_chickenfajitas + 10000000 route__rice_chilliconcarne
+ + 0.0015 route__rice_dump + 10000000 route__rice_lentilsandfish
+ + 10000000 route__rice_pastabake + 10000000 route__rice_spagbol
+ + 0.0075 route__salsa_chickenfajitas + 10000000 route__salsa_chilliconcarne
+ + 0.0075 route__salsa_dump + 10000000 route__salsa_lentilsandfish
+ + 10000000 route__salsa_pastabake + 10000000 route__salsa_spagbol
+ + 10000000 route__tumeric_chickenfajitas
+ + 10000000 route__tumeric_chilliconcarne + 0.0075 route__tumeric_dump
+ + 0.0075 route__tumeric_lentilsandfish + 10000000 route__tumeric_pastabake
+ + 10000000 route__tumeric_spagbol + 0.125 route__wraps_chickenfajitas
+ + 10000000 route__wraps_chilliconcarne + 0.125 route__wraps_dump
+ + 10000000 route__wraps_lentilsandfish + 10000000 route__wraps_pastabake
+ + 10000000 route__wraps_spagbol
+Subject To
+Number_of_meals_constrtaints_%s: choice__chickenfajitas
+ + choice__chilliconcarne + choice__lentilsandfish + choice__pastabake
+ + choice__spagbol = 2
+Quantity_of_ingredients_constrtaints_chickenfajitascheese:
+ 100 choice__chickenfajitas - route__cheese_chickenfajitas <= 0
+Quantity_of_ingredients_constrtaints_chickenfajitaschickenbreast:
+ 500 choice__chickenfajitas - route__chickenbreast_chickenfajitas <= 0
+Quantity_of_ingredients_constrtaints_chickenfajitasfajitamix:
+ 100 choice__chickenfajitas - route__fajitamix_chickenfajitas <= 0
+Quantity_of_ingredients_constrtaints_chickenfajitasgreenpepper:
+ choice__chickenfajitas - route__greenpepper_chickenfajitas <= 0
+Quantity_of_ingredients_constrtaints_chickenfajitasonion:
+ choice__chickenfajitas - route__onion_chickenfajitas <= 0
+Quantity_of_ingredients_constrtaints_chickenfajitasredpepper:
+ choice__chickenfajitas - route__redpepper_chickenfajitas <= 0
+Quantity_of_ingredients_constrtaints_chickenfajitassalsa:
+ 100 choice__chickenfajitas - route__salsa_chickenfajitas <= 0
+Quantity_of_ingredients_constrtaints_chickenfajitaswraps:
+ 4 choice__chickenfajitas - route__wraps_chickenfajitas <= 0
+Quantity_of_ingredients_constrtaints_chilliconcarnecheese:
+ 100 choice__chilliconcarne - route__cheese_chilliconcarne <= 0
+Quantity_of_ingredients_constrtaints_chilliconcarnechillies:
+ 5 choice__chilliconcarne - route__chillies_chilliconcarne <= 0
+Quantity_of_ingredients_constrtaints_chilliconcarnecumin:
+ choice__chilliconcarne - route__cumin_chilliconcarne <= 0
+Quantity_of_ingredients_constrtaints_chilliconcarnegarlic:
+ 3 choice__chilliconcarne - route__garlic_chilliconcarne <= 0
+Quantity_of_ingredients_constrtaints_chilliconcarnegreenpepper:
+ choice__chilliconcarne - route__greenpepper_chilliconcarne <= 0
+Quantity_of_ingredients_constrtaints_chilliconcarnemincemeat:
+ 500 choice__chilliconcarne - route__mincemeat_chilliconcarne <= 0
+Quantity_of_ingredients_constrtaints_chilliconcarneonion:
+ choice__chilliconcarne - route__onion_chilliconcarne <= 0
+Quantity_of_ingredients_constrtaints_chilliconcarnepasta:
+ 500 choice__chilliconcarne - route__pasta_chilliconcarne <= 0
+Quantity_of_ingredients_constrtaints_lentilsandfishcayennepepper:
+ 0.5 choice__lentilsandfish - route__cayennepepper_lentilsandfish <= 0
+Quantity_of_ingredients_constrtaints_lentilsandfishcorriander:
+ 100 choice__lentilsandfish - route__corriander_lentilsandfish <= 0
+Quantity_of_ingredients_constrtaints_lentilsandfishcumin:
+ choice__lentilsandfish - route__cumin_lentilsandfish <= 0
+Quantity_of_ingredients_constrtaints_lentilsandfishfish:
+ 500 choice__lentilsandfish - route__fish_lentilsandfish <= 0
+Quantity_of_ingredients_constrtaints_lentilsandfishlemon:
+ choice__lentilsandfish - route__lemon_lentilsandfish <= 0
+Quantity_of_ingredients_constrtaints_lentilsandfishredlentils:
+ 500 choice__lentilsandfish - route__redlentils_lentilsandfish <= 0
+Quantity_of_ingredients_constrtaints_lentilsandfishtumeric:
+ choice__lentilsandfish - route__tumeric_lentilsandfish <= 0
+Quantity_of_ingredients_constrtaints_pastabakebasil: 50 choice__pastabake
+ - route__basil_pastabake <= 0
+Quantity_of_ingredients_constrtaints_pastabakecheese: 100 choice__pastabake
+ - route__cheese_pastabake <= 0
+Quantity_of_ingredients_constrtaints_pastabakegarlic: 3 choice__pastabake
+ - route__garlic_pastabake <= 0
+Quantity_of_ingredients_constrtaints_pastabakemushrooms: 100 choice__pastabake
+ - route__mushrooms_pastabake <= 0
+Quantity_of_ingredients_constrtaints_pastabakeolives: 300 choice__pastabake
+ - route__olives_pastabake <= 0
+Quantity_of_ingredients_constrtaints_pastabakeonion: choice__pastabake
+ - route__onion_pastabake <= 0
+Quantity_of_ingredients_constrtaints_pastabakepasta: 500 choice__pastabake
+ - route__pasta_pastabake <= 0
+Quantity_of_ingredients_constrtaints_spagbolbasil: 50 choice__spagbol
+ - route__basil_spagbol <= 0
+Quantity_of_ingredients_constrtaints_spagbolcannedtomatoes:
+ 500 choice__spagbol - route__cannedtomatoes_spagbol <= 0
+Quantity_of_ingredients_constrtaints_spagbolgarlic: 3 choice__spagbol
+ - route__garlic_spagbol <= 0
+Quantity_of_ingredients_constrtaints_spagbolmincemeat: 500 choice__spagbol
+ - route__mincemeat_spagbol <= 0
+Quantity_of_ingredients_constrtaints_spagbolmushrooms: 100 choice__spagbol
+ - route__mushrooms_spagbol <= 0
+Quantity_of_ingredients_constrtaints_spagbolonion: choice__spagbol
+ - route__onion_spagbol <= 0
+Quantity_of_ingredients_constrtaints_spagbolpasta: 500 choice__spagbol
+ - route__pasta_spagbol <= 0
+dump_constrtaints_chickenfajitascheese: - 100 choice__chickenfajitas
+ + route__cheese_chickenfajitas <= 0
+dump_constrtaints_chickenfajitaschickenbreast: - 500 choice__chickenfajitas
+ + route__chickenbreast_chickenfajitas <= 0
+dump_constrtaints_chickenfajitasfajitamix: - 100 choice__chickenfajitas
+ + route__fajitamix_chickenfajitas <= 0
+dump_constrtaints_chickenfajitasgreenpepper: - choice__chickenfajitas
+ + route__greenpepper_chickenfajitas <= 0
+dump_constrtaints_chickenfajitasonion: - choice__chickenfajitas
+ + route__onion_chickenfajitas <= 0
+dump_constrtaints_chickenfajitasredpepper: - choice__chickenfajitas
+ + route__redpepper_chickenfajitas <= 0
+dump_constrtaints_chickenfajitassalsa: - 100 choice__chickenfajitas
+ + route__salsa_chickenfajitas <= 0
+dump_constrtaints_chickenfajitaswraps: - 4 choice__chickenfajitas
+ + route__wraps_chickenfajitas <= 0
+dump_constrtaints_chilliconcarnecheese: - 100 choice__chilliconcarne
+ + route__cheese_chilliconcarne <= 0
+dump_constrtaints_chilliconcarnechillies: - 5 choice__chilliconcarne
+ + route__chillies_chilliconcarne <= 0
+dump_constrtaints_chilliconcarnecumin: - choice__chilliconcarne
+ + route__cumin_chilliconcarne <= 0
+dump_constrtaints_chilliconcarnegarlic: - 3 choice__chilliconcarne
+ + route__garlic_chilliconcarne <= 0
+dump_constrtaints_chilliconcarnegreenpepper: - choice__chilliconcarne
+ + route__greenpepper_chilliconcarne <= 0
+dump_constrtaints_chilliconcarnemincemeat: - 500 choice__chilliconcarne
+ + route__mincemeat_chilliconcarne <= 0
+dump_constrtaints_chilliconcarneonion: - choice__chilliconcarne
+ + route__onion_chilliconcarne <= 0
+dump_constrtaints_chilliconcarnepasta: - 500 choice__chilliconcarne
+ + route__pasta_chilliconcarne <= 0
+dump_constrtaints_lentilsandfishcayennepepper: - 0.5 choice__lentilsandfish
+ + route__cayennepepper_lentilsandfish <= 0
+dump_constrtaints_lentilsandfishcorriander: - 100 choice__lentilsandfish
+ + route__corriander_lentilsandfish <= 0
+dump_constrtaints_lentilsandfishcumin: - choice__lentilsandfish
+ + route__cumin_lentilsandfish <= 0
+dump_constrtaints_lentilsandfishfish: - 500 choice__lentilsandfish
+ + route__fish_lentilsandfish <= 0
+dump_constrtaints_lentilsandfishlemon: - choice__lentilsandfish
+ + route__lemon_lentilsandfish <= 0
+dump_constrtaints_lentilsandfishredlentils: - 500 choice__lentilsandfish
+ + route__redlentils_lentilsandfish <= 0
+dump_constrtaints_lentilsandfishtumeric: - choice__lentilsandfish
+ + route__tumeric_lentilsandfish <= 0
+dump_constrtaints_pastabakebasil: - 50 choice__pastabake
+ + route__basil_pastabake <= 0
+dump_constrtaints_pastabakecheese: - 100 choice__pastabake
+ + route__cheese_pastabake <= 0
+dump_constrtaints_pastabakegarlic: - 3 choice__pastabake
+ + route__garlic_pastabake <= 0
+dump_constrtaints_pastabakemushrooms: - 100 choice__pastabake
+ + route__mushrooms_pastabake <= 0
+dump_constrtaints_pastabakeolives: - 300 choice__pastabake
+ + route__olives_pastabake <= 0
+dump_constrtaints_pastabakeonion: - choice__pastabake + route__onion_pastabake
+ <= 0
+dump_constrtaints_pastabakepasta: - 500 choice__pastabake
+ + route__pasta_pastabake <= 0
+dump_constrtaints_spagbolbasil: - 50 choice__spagbol + route__basil_spagbol
+ <= 0
+dump_constrtaints_spagbolcannedtomatoes: - 500 choice__spagbol
+ + route__cannedtomatoes_spagbol <= 0
+dump_constrtaints_spagbolgarlic: - 3 choice__spagbol + route__garlic_spagbol
+ <= 0
+dump_constrtaints_spagbolmincemeat: - 500 choice__spagbol
+ + route__mincemeat_spagbol <= 0
+dump_constrtaints_spagbolmushrooms: - 100 choice__spagbol
+ + route__mushrooms_spagbol <= 0
+dump_constrtaints_spagbolonion: - choice__spagbol + route__onion_spagbol <= 0
+dump_constrtaints_spagbolpasta: - 500 choice__spagbol + route__pasta_spagbol
+ <= 0
+force_meals_constrtaints_chickenfajitas: choice__chickenfajitas
+ - route__basil_chickenfajitas - route__cannedtomatoes_chickenfajitas
+ - route__cayennepepper_chickenfajitas - route__cheese_chickenfajitas
+ - route__chickenbreast_chickenfajitas - route__chillies_chickenfajitas
+ - route__corriander_chickenfajitas - route__cumin_chickenfajitas
+ - route__fajitamix_chickenfajitas - route__fish_chickenfajitas
+ - route__garlic_chickenfajitas - route__greenpepper_chickenfajitas
+ - route__lemon_chickenfajitas - route__mincemeat_chickenfajitas
+ - route__mushrooms_chickenfajitas - route__olives_chickenfajitas
+ - route__onion_chickenfajitas - route__pasta_chickenfajitas
+ - route__redlentils_chickenfajitas - route__redpepper_chickenfajitas
+ - route__rice_chickenfajitas - route__salsa_chickenfajitas
+ - route__tumeric_chickenfajitas - route__wraps_chickenfajitas <= 0
+force_meals_constrtaints_chilliconcarne: choice__chilliconcarne
+ - route__basil_chilliconcarne - route__cannedtomatoes_chilliconcarne
+ - route__cayennepepper_chilliconcarne - route__cheese_chilliconcarne
+ - route__chickenbreast_chilliconcarne - route__chillies_chilliconcarne
+ - route__corriander_chilliconcarne - route__cumin_chilliconcarne
+ - route__fajitamix_chilliconcarne - route__fish_chilliconcarne
+ - route__garlic_chilliconcarne - route__greenpepper_chilliconcarne
+ - route__lemon_chilliconcarne - route__mincemeat_chilliconcarne
+ - route__mushrooms_chilliconcarne - route__olives_chilliconcarne
+ - route__onion_chilliconcarne - route__pasta_chilliconcarne
+ - route__redlentils_chilliconcarne - route__redpepper_chilliconcarne
+ - route__rice_chilliconcarne - route__salsa_chilliconcarne
+ - route__tumeric_chilliconcarne - route__wraps_chilliconcarne <= 0
+force_meals_constrtaints_lentilsandfish: choice__lentilsandfish
+ - route__basil_lentilsandfish - route__cannedtomatoes_lentilsandfish
+ - route__cayennepepper_lentilsandfish - route__cheese_lentilsandfish
+ - route__chickenbreast_lentilsandfish - route__chillies_lentilsandfish
+ - route__corriander_lentilsandfish - route__cumin_lentilsandfish
+ - route__fajitamix_lentilsandfish - route__fish_lentilsandfish
+ - route__garlic_lentilsandfish - route__greenpepper_lentilsandfish
+ - route__lemon_lentilsandfish - route__mincemeat_lentilsandfish
+ - route__mushrooms_lentilsandfish - route__olives_lentilsandfish
+ - route__onion_lentilsandfish - route__pasta_lentilsandfish
+ - route__redlentils_lentilsandfish - route__redpepper_lentilsandfish
+ - route__rice_lentilsandfish - route__salsa_lentilsandfish
+ - route__tumeric_lentilsandfish - route__wraps_lentilsandfish <= 0
+force_meals_constrtaints_pastabake: choice__pastabake - route__basil_pastabake
+ - route__cannedtomatoes_pastabake - route__cayennepepper_pastabake
+ - route__cheese_pastabake - route__chickenbreast_pastabake
+ - route__chillies_pastabake - route__corriander_pastabake
+ - route__cumin_pastabake - route__fajitamix_pastabake - route__fish_pastabake
+ - route__garlic_pastabake - route__greenpepper_pastabake
+ - route__lemon_pastabake - route__mincemeat_pastabake
+ - route__mushrooms_pastabake - route__olives_pastabake
+ - route__onion_pastabake - route__pasta_pastabake
+ - route__redlentils_pastabake - route__redpepper_pastabake
+ - route__rice_pastabake - route__salsa_pastabake - route__tumeric_pastabake
+ - route__wraps_pastabake <= 0
+force_meals_constrtaints_spagbol: choice__spagbol - route__basil_spagbol
+ - route__cannedtomatoes_spagbol - route__cayennepepper_spagbol
+ - route__cheese_spagbol - route__chickenbreast_spagbol
+ - route__chillies_spagbol - route__corriander_spagbol - route__cumin_spagbol
+ - route__fajitamix_spagbol - route__fish_spagbol - route__garlic_spagbol
+ - route__greenpepper_spagbol - route__lemon_spagbol
+ - route__mincemeat_spagbol - route__mushrooms_spagbol - route__olives_spagbol
+ - route__onion_spagbol - route__pasta_spagbol - route__redlentils_spagbol
+ - route__redpepper_spagbol - route__rice_spagbol - route__salsa_spagbol
+ - route__tumeric_spagbol - route__wraps_spagbol <= 0
+whole_products_constrtaints_basil: - items__basil_chickenfajitas
+ - items__basil_chilliconcarne - items__basil_dump
+ - items__basil_lentilsandfish - items__basil_pastabake - items__basil_spagbol
+ + 0.01 route__basil_chickenfajitas + 0.01 route__basil_chilliconcarne
+ + 0.01 route__basil_dump + 0.01 route__basil_lentilsandfish
+ + 0.01 route__basil_pastabake + 0.01 route__basil_spagbol = 0
+whole_products_constrtaints_cannedtomatoes:
+ - items__cannedtomatoes_chickenfajitas - items__cannedtomatoes_chilliconcarne
+ - items__cannedtomatoes_dump - items__cannedtomatoes_lentilsandfish
+ - items__cannedtomatoes_pastabake - items__cannedtomatoes_spagbol
+ + 0.002 route__cannedtomatoes_chickenfajitas
+ + 0.002 route__cannedtomatoes_chilliconcarne
+ + 0.002 route__cannedtomatoes_dump
+ + 0.002 route__cannedtomatoes_lentilsandfish
+ + 0.002 route__cannedtomatoes_pastabake + 0.002 route__cannedtomatoes_spagbol
+ = 0
+whole_products_constrtaints_cayennepepper:
+ - items__cayennepepper_chickenfajitas - items__cayennepepper_chilliconcarne
+ - items__cayennepepper_dump - items__cayennepepper_lentilsandfish
+ - items__cayennepepper_pastabake - items__cayennepepper_spagbol
+ + 0.005 route__cayennepepper_chickenfajitas
+ + 0.005 route__cayennepepper_chilliconcarne + 0.005 route__cayennepepper_dump
+ + 0.005 route__cayennepepper_lentilsandfish
+ + 0.005 route__cayennepepper_pastabake + 0.005 route__cayennepepper_spagbol
+ = 0
+whole_products_constrtaints_cheese: - items__cheese_chickenfajitas
+ - items__cheese_chilliconcarne - items__cheese_dump
+ - items__cheese_lentilsandfish - items__cheese_pastabake
+ - items__cheese_spagbol + 0.002 route__cheese_chickenfajitas
+ + 0.002 route__cheese_chilliconcarne + 0.002 route__cheese_dump
+ + 0.002 route__cheese_lentilsandfish + 0.002 route__cheese_pastabake
+ + 0.002 route__cheese_spagbol = 0
+whole_products_constrtaints_chickenbreast:
+ - items__chickenbreast_chickenfajitas - items__chickenbreast_chilliconcarne
+ - items__chickenbreast_dump - items__chickenbreast_lentilsandfish
+ - items__chickenbreast_pastabake - items__chickenbreast_spagbol
+ + 0.002 route__chickenbreast_chickenfajitas
+ + 0.002 route__chickenbreast_chilliconcarne + 0.002 route__chickenbreast_dump
+ + 0.002 route__chickenbreast_lentilsandfish
+ + 0.002 route__chickenbreast_pastabake + 0.002 route__chickenbreast_spagbol
+ = 0
+whole_products_constrtaints_chillies: - items__chillies_chickenfajitas
+ - items__chillies_chilliconcarne - items__chillies_dump
+ - items__chillies_lentilsandfish - items__chillies_pastabake
+ - items__chillies_spagbol + 0.1 route__chillies_chickenfajitas
+ + 0.1 route__chillies_chilliconcarne + 0.1 route__chillies_dump
+ + 0.1 route__chillies_lentilsandfish + 0.1 route__chillies_pastabake
+ + 0.1 route__chillies_spagbol = 0
+whole_products_constrtaints_corriander: - items__corriander_chickenfajitas
+ - items__corriander_chilliconcarne - items__corriander_dump
+ - items__corriander_lentilsandfish - items__corriander_pastabake
+ - items__corriander_spagbol + 0.01 route__corriander_chickenfajitas
+ + 0.01 route__corriander_chilliconcarne + 0.01 route__corriander_dump
+ + 0.01 route__corriander_lentilsandfish + 0.01 route__corriander_pastabake
+ + 0.01 route__corriander_spagbol = 0
+whole_products_constrtaints_cumin: - items__cumin_chickenfajitas
+ - items__cumin_chilliconcarne - items__cumin_dump
+ - items__cumin_lentilsandfish - items__cumin_pastabake - items__cumin_spagbol
+ + 0.005 route__cumin_chickenfajitas + 0.005 route__cumin_chilliconcarne
+ + 0.005 route__cumin_dump + 0.005 route__cumin_lentilsandfish
+ + 0.005 route__cumin_pastabake + 0.005 route__cumin_spagbol = 0
+whole_products_constrtaints_fajitamix: - items__fajitamix_chickenfajitas
+ - items__fajitamix_chilliconcarne - items__fajitamix_dump
+ - items__fajitamix_lentilsandfish - items__fajitamix_pastabake
+ - items__fajitamix_spagbol + 0.01 route__fajitamix_chickenfajitas
+ + 0.01 route__fajitamix_chilliconcarne + 0.01 route__fajitamix_dump
+ + 0.01 route__fajitamix_lentilsandfish + 0.01 route__fajitamix_pastabake
+ + 0.01 route__fajitamix_spagbol = 0
+whole_products_constrtaints_fish: - items__fish_chickenfajitas
+ - items__fish_chilliconcarne - items__fish_dump - items__fish_lentilsandfish
+ - items__fish_pastabake - items__fish_spagbol
+ + 0.001 route__fish_chickenfajitas + 0.001 route__fish_chilliconcarne
+ + 0.001 route__fish_dump + 0.001 route__fish_lentilsandfish
+ + 0.001 route__fish_pastabake + 0.001 route__fish_spagbol = 0
+whole_products_constrtaints_garlic: - items__garlic_chickenfajitas
+ - items__garlic_chilliconcarne - items__garlic_dump
+ - items__garlic_lentilsandfish - items__garlic_pastabake
+ - items__garlic_spagbol + 0.111111111111 route__garlic_chickenfajitas
+ + 0.111111111111 route__garlic_chilliconcarne
+ + 0.111111111111 route__garlic_dump
+ + 0.111111111111 route__garlic_lentilsandfish
+ + 0.111111111111 route__garlic_pastabake
+ + 0.111111111111 route__garlic_spagbol = 0
+whole_products_constrtaints_greenpepper: - items__greenpepper_chickenfajitas
+ - items__greenpepper_chilliconcarne - items__greenpepper_dump
+ - items__greenpepper_lentilsandfish - items__greenpepper_pastabake
+ - items__greenpepper_spagbol
+ + 0.333333333333 route__greenpepper_chickenfajitas
+ + 0.333333333333 route__greenpepper_chilliconcarne
+ + 0.333333333333 route__greenpepper_dump
+ + 0.333333333333 route__greenpepper_lentilsandfish
+ + 0.333333333333 route__greenpepper_pastabake
+ + 0.333333333333 route__greenpepper_spagbol = 0
+whole_products_constrtaints_lemon: - items__lemon_chickenfajitas
+ - items__lemon_chilliconcarne - items__lemon_dump
+ - items__lemon_lentilsandfish - items__lemon_pastabake - items__lemon_spagbol
+ + route__lemon_chickenfajitas + route__lemon_chilliconcarne
+ + route__lemon_dump + route__lemon_lentilsandfish + route__lemon_pastabake
+ + route__lemon_spagbol = 0
+whole_products_constrtaints_mincemeat: - items__mincemeat_chickenfajitas
+ - items__mincemeat_chilliconcarne - items__mincemeat_dump
+ - items__mincemeat_lentilsandfish - items__mincemeat_pastabake
+ - items__mincemeat_spagbol + 0.002 route__mincemeat_chickenfajitas
+ + 0.002 route__mincemeat_chilliconcarne + 0.002 route__mincemeat_dump
+ + 0.002 route__mincemeat_lentilsandfish + 0.002 route__mincemeat_pastabake
+ + 0.002 route__mincemeat_spagbol = 0
+whole_products_constrtaints_mushrooms: - items__mushrooms_chickenfajitas
+ - items__mushrooms_chilliconcarne - items__mushrooms_dump
+ - items__mushrooms_lentilsandfish - items__mushrooms_pastabake
+ - items__mushrooms_spagbol + 0.005 route__mushrooms_chickenfajitas
+ + 0.005 route__mushrooms_chilliconcarne + 0.005 route__mushrooms_dump
+ + 0.005 route__mushrooms_lentilsandfish + 0.005 route__mushrooms_pastabake
+ + 0.005 route__mushrooms_spagbol = 0
+whole_products_constrtaints_olives: - items__olives_chickenfajitas
+ - items__olives_chilliconcarne - items__olives_dump
+ - items__olives_lentilsandfish - items__olives_pastabake
+ - items__olives_spagbol + 0.01 route__olives_chickenfajitas
+ + 0.01 route__olives_chilliconcarne + 0.01 route__olives_dump
+ + 0.01 route__olives_lentilsandfish + 0.01 route__olives_pastabake
+ + 0.01 route__olives_spagbol = 0
+whole_products_constrtaints_onion: - items__onion_chickenfajitas
+ - items__onion_chilliconcarne - items__onion_dump
+ - items__onion_lentilsandfish - items__onion_pastabake - items__onion_spagbol
+ + route__onion_chickenfajitas + route__onion_chilliconcarne
+ + route__onion_dump + route__onion_lentilsandfish + route__onion_pastabake
+ + route__onion_spagbol = 0
+whole_products_constrtaints_pasta: - items__pasta_chickenfajitas
+ - items__pasta_chilliconcarne - items__pasta_dump
+ - items__pasta_lentilsandfish - items__pasta_pastabake - items__pasta_spagbol
+ + 0.001 route__pasta_chickenfajitas + 0.001 route__pasta_chilliconcarne
+ + 0.001 route__pasta_dump + 0.001 route__pasta_lentilsandfish
+ + 0.001 route__pasta_pastabake + 0.001 route__pasta_spagbol = 0
+whole_products_constrtaints_redlentils: - items__redlentils_chickenfajitas
+ - items__redlentils_chilliconcarne - items__redlentils_dump
+ - items__redlentils_lentilsandfish - items__redlentils_pastabake
+ - items__redlentils_spagbol + 0.002 route__redlentils_chickenfajitas
+ + 0.002 route__redlentils_chilliconcarne + 0.002 route__redlentils_dump
+ + 0.002 route__redlentils_lentilsandfish + 0.002 route__redlentils_pastabake
+ + 0.002 route__redlentils_spagbol = 0
+whole_products_constrtaints_redpepper: - items__redpepper_chickenfajitas
+ - items__redpepper_chilliconcarne - items__redpepper_dump
+ - items__redpepper_lentilsandfish - items__redpepper_pastabake
+ - items__redpepper_spagbol + 0.333333333333 route__redpepper_chickenfajitas
+ + 0.333333333333 route__redpepper_chilliconcarne
+ + 0.333333333333 route__redpepper_dump
+ + 0.333333333333 route__redpepper_lentilsandfish
+ + 0.333333333333 route__redpepper_pastabake
+ + 0.333333333333 route__redpepper_spagbol = 0
+whole_products_constrtaints_rice: - items__rice_chickenfajitas
+ - items__rice_chilliconcarne - items__rice_dump - items__rice_lentilsandfish
+ - items__rice_pastabake - items__rice_spagbol
+ + 0.001 route__rice_chickenfajitas + 0.001 route__rice_chilliconcarne
+ + 0.001 route__rice_dump + 0.001 route__rice_lentilsandfish
+ + 0.001 route__rice_pastabake + 0.001 route__rice_spagbol = 0
+whole_products_constrtaints_salsa: - items__salsa_chickenfajitas
+ - items__salsa_chilliconcarne - items__salsa_dump
+ - items__salsa_lentilsandfish - items__salsa_pastabake - items__salsa_spagbol
+ + 0.005 route__salsa_chickenfajitas + 0.005 route__salsa_chilliconcarne
+ + 0.005 route__salsa_dump + 0.005 route__salsa_lentilsandfish
+ + 0.005 route__salsa_pastabake + 0.005 route__salsa_spagbol = 0
+whole_products_constrtaints_tumeric: - items__tumeric_chickenfajitas
+ - items__tumeric_chilliconcarne - items__tumeric_dump
+ - items__tumeric_lentilsandfish - items__tumeric_pastabake
+ - items__tumeric_spagbol + 0.005 route__tumeric_chickenfajitas
+ + 0.005 route__tumeric_chilliconcarne + 0.005 route__tumeric_dump
+ + 0.005 route__tumeric_lentilsandfish + 0.005 route__tumeric_pastabake
+ + 0.005 route__tumeric_spagbol = 0
+whole_products_constrtaints_wraps: - items__wraps_chickenfajitas
+ - items__wraps_chilliconcarne - items__wraps_dump
+ - items__wraps_lentilsandfish - items__wraps_pastabake - items__wraps_spagbol
+ + 0.125 route__wraps_chickenfajitas + 0.125 route__wraps_chilliconcarne
+ + 0.125 route__wraps_dump + 0.125 route__wraps_lentilsandfish
+ + 0.125 route__wraps_pastabake + 0.125 route__wraps_spagbol = 0
+Binaries
+choice__chickenfajitas
+choice__chilliconcarne
+choice__lentilsandfish
+choice__pastabake
+choice__spagbol
+items__basil_chickenfajitas
+items__basil_chilliconcarne
+items__basil_dump
+items__basil_lentilsandfish
+items__basil_pastabake
+items__basil_spagbol
+items__cannedtomatoes_chickenfajitas
+items__cannedtomatoes_chilliconcarne
+items__cannedtomatoes_dump
+items__cannedtomatoes_lentilsandfish
+items__cannedtomatoes_pastabake
+items__cannedtomatoes_spagbol
+items__cayennepepper_chickenfajitas
+items__cayennepepper_chilliconcarne
+items__cayennepepper_dump
+items__cayennepepper_lentilsandfish
+items__cayennepepper_pastabake
+items__cayennepepper_spagbol
+items__cheese_chickenfajitas
+items__cheese_chilliconcarne
+items__cheese_dump
+items__cheese_lentilsandfish
+items__cheese_pastabake
+items__cheese_spagbol
+items__chickenbreast_chickenfajitas
+items__chickenbreast_chilliconcarne
+items__chickenbreast_dump
+items__chickenbreast_lentilsandfish
+items__chickenbreast_pastabake
+items__chickenbreast_spagbol
+items__chillies_chickenfajitas
+items__chillies_chilliconcarne
+items__chillies_dump
+items__chillies_lentilsandfish
+items__chillies_pastabake
+items__chillies_spagbol
+items__corriander_chickenfajitas
+items__corriander_chilliconcarne
+items__corriander_dump
+items__corriander_lentilsandfish
+items__corriander_pastabake
+items__corriander_spagbol
+items__cumin_chickenfajitas
+items__cumin_chilliconcarne
+items__cumin_dump
+items__cumin_lentilsandfish
+items__cumin_pastabake
+items__cumin_spagbol
+items__fajitamix_chickenfajitas
+items__fajitamix_chilliconcarne
+items__fajitamix_dump
+items__fajitamix_lentilsandfish
+items__fajitamix_pastabake
+items__fajitamix_spagbol
+items__fish_chickenfajitas
+items__fish_chilliconcarne
+items__fish_dump
+items__fish_lentilsandfish
+items__fish_pastabake
+items__fish_spagbol
+items__garlic_chickenfajitas
+items__garlic_chilliconcarne
+items__garlic_dump
+items__garlic_lentilsandfish
+items__garlic_pastabake
+items__garlic_spagbol
+items__greenpepper_chickenfajitas
+items__greenpepper_chilliconcarne
+items__greenpepper_dump
+items__greenpepper_lentilsandfish
+items__greenpepper_pastabake
+items__greenpepper_spagbol
+items__lemon_chickenfajitas
+items__lemon_chilliconcarne
+items__lemon_dump
+items__lemon_lentilsandfish
+items__lemon_pastabake
+items__lemon_spagbol
+items__mincemeat_chickenfajitas
+items__mincemeat_chilliconcarne
+items__mincemeat_dump
+items__mincemeat_lentilsandfish
+items__mincemeat_pastabake
+items__mincemeat_spagbol
+items__mushrooms_chickenfajitas
+items__mushrooms_chilliconcarne
+items__mushrooms_dump
+items__mushrooms_lentilsandfish
+items__mushrooms_pastabake
+items__mushrooms_spagbol
+items__olives_chickenfajitas
+items__olives_chilliconcarne
+items__olives_dump
+items__olives_lentilsandfish
+items__olives_pastabake
+items__olives_spagbol
+items__onion_chickenfajitas
+items__onion_chilliconcarne
+items__onion_dump
+items__onion_lentilsandfish
+items__onion_pastabake
+items__onion_spagbol
+items__pasta_chickenfajitas
+items__pasta_chilliconcarne
+items__pasta_dump
+items__pasta_lentilsandfish
+items__pasta_pastabake
+items__pasta_spagbol
+items__redlentils_chickenfajitas
+items__redlentils_chilliconcarne
+items__redlentils_dump
+items__redlentils_lentilsandfish
+items__redlentils_pastabake
+items__redlentils_spagbol
+items__redpepper_chickenfajitas
+items__redpepper_chilliconcarne
+items__redpepper_dump
+items__redpepper_lentilsandfish
+items__redpepper_pastabake
+items__redpepper_spagbol
+items__rice_chickenfajitas
+items__rice_chilliconcarne
+items__rice_dump
+items__rice_lentilsandfish
+items__rice_pastabake
+items__rice_spagbol
+items__salsa_chickenfajitas
+items__salsa_chilliconcarne
+items__salsa_dump
+items__salsa_lentilsandfish
+items__salsa_pastabake
+items__salsa_spagbol
+items__tumeric_chickenfajitas
+items__tumeric_chilliconcarne
+items__tumeric_dump
+items__tumeric_lentilsandfish
+items__tumeric_pastabake
+items__tumeric_spagbol
+items__wraps_chickenfajitas
+items__wraps_chilliconcarne
+items__wraps_dump
+items__wraps_lentilsandfish
+items__wraps_pastabake
+items__wraps_spagbol
+End

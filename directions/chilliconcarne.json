@@ -1,0 +1,46 @@
+{
+  "Name":"chilliconcarne",
+  "ingno": 8,
+  "ingredients": [
+      {
+      "name":"pasta",
+      "quant":500,
+      "unit": "g"
+      },
+      {
+      "name":"mincemeat",
+      "quant":500,
+      "unit": "g"
+      },
+      {
+      "name":"onion",
+      "quant":1,
+      "unit": "none"
+      },
+      {
+      "name":"greenpepper",
+      "quant":1,
+      "unit": "none"
+      },
+      {
+      "name":"cheese",
+      "quant":100,
+      "unit": "g"
+      },
+      {
+      "name":"garlic",
+      "quant": 3,
+      "unit": "cloves"
+      },
+      {
+      "name":"chillies",
+      "quant": 5,
+      "unit": "none"
+      },
+      {
+      "name":"cumin",
+      "quant": 1,
+      "unit": "teaspoon"
+      }
+       ]
+  }
