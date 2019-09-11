@@ -1,0 +1,81 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Apr 27 13:39:39 2019
+
+@author: luke
+"""
+
+import pandas as pd
+import numpy as np
+import json
+import os
+from scipy.optimize import minimize
+
+def search(values, searchFor):
+    for k in values:
+        for v in values[k]:
+            if searchFor in v:
+                return k
+    return None
+
+ddir='./directions/'
+
+mealrecs={"Noodays": 3,
+          "recipes":["chilliconcarne", "fajitaschicken", "pastabake"]        
+        }
+
+for r, d, f in os.walk(ddir):
+    files=f
+    
+check=[rec for rec in files if rec.replace('.json','') in mealrecs['recipes']]
+adirs=[]
+for r in check:
+    with open(ddir+r) as file:
+        dirs=json.load(file)
+        adirs.append(dirs)
+file.close()
+
+times=[]
+for a in adirs:
+    steps=a['steps']
+    for stp in steps:
+        times.append(stp['time'])
+
+cutting=[0]*len(times)
+collecting=[0]*len(times)
+washing=[0]*len(times)
+
+cnt=0
+for a in adirs:
+    steps=a['steps']
+    for stp in steps:
+        if stp['type']=='cutting':
+            cutting[cnt]=1
+        if stp['type']=='collecting':
+            collecting[cnt]=1
+        if stp['type']=='washing':
+            washing[cnt]=1
+        cnt+=1
+        
+cutting=[i for i in range(len(times)) if cutting[i]==1]
+collecting=[i for i in range(len(times)) if collecting[i]==1]
+washing=[i for i in range(len(times)) if washing[i]==1]
+
+def collecting(x,*args):
+    col=args
+    con=0
+    for c in col:
+        con*=x[c]
+    return con
+    
+def func(x):
+    objf=0
+    for cnt, t in enumerate(times):
+        objf+=x[cnt]*t
+    return objf
+
+bnds=tuple( [(0,1) for i in times])
+
+
+cons=({'type':'eq','fun':lambda x:x[0]+x[1]-5})

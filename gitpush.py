@@ -28,6 +28,12 @@ def git_push():
         print('Code push from script succeeded')       
 
 git_push()
+
+git add .
+git commit -m "Added linear optimisation with discrete ingredients"
+#git remote add origin https://github.com/lukemenzies1987/MealPlan.git
+git push origin master
+
 """
 
 
