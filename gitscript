@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 #!/bin/bash  
 git add .  
 read -p "Commit description: " desc  
 git commit -m $desc  
+=======
+git add .
+git commit -m "Added linear optimisation with discrete ingredients"
+#git remote add origin https://github.com/lukemenzies1987/MealPlan.git
+>>>>>>> 38d6673058f5434b4d96460c0569bbcc7190be58
 git push origin master
 

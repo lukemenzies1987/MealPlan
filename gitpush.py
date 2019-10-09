@@ -9,7 +9,7 @@ Created on Mon Apr 22 14:04:10 2019
 from git import Repo
 import os
 import sys
-
+"""
 cwd=os.getcwd()
 PATH_OF_GIT_REPO = os.path.join(cwd,'.git')  # make sure .git folder is properly configured
 COMMIT_MESSAGE = sys.argv[1]#'comment from python script'
@@ -28,3 +28,12 @@ def git_push():
         print('Code push from script succeeded')       
 
 git_push()
+
+git add .
+git commit -m "Added linear optimisation with discrete ingredients"
+#git remote add origin https://github.com/lukemenzies1987/MealPlan.git
+git push origin master
+
+"""
+
+
