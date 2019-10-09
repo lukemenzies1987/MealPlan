@@ -58,7 +58,18 @@ for s in steptypes:
         block[d]=1
         for r in mealrecs['recipes']:
             grid.append((s,d,r))
-        
+
+
+block=dict([])
+for cnts,s in enumerate(steptypes):
+    block[s]=dict([])
+    for cntd,d in enumerate(daydim):
+        block[s][d]=dict([])  
+        for cntr,r in enumerate(mealrecs['recipes']):
+            block[s][d][r]=1
+            if cntd==cntr:
+                block[s][d][r]=0
+                
 arrays = [steptypes,daydim]
 ind=pd.MultiIndex.from_product(arrays)
 
@@ -79,7 +90,7 @@ objfunc=[]
 #objfunc+=[x[s][d][r]*costs[s][d][r] for (s,d,r) in grid]
 
 for d in daydim:
-    block.update(dict.fromkeys(daydim, 1))
-    block[d]=0
+    #block.update(dict.fromkeys(daydim, 1))
+    #block[d]=1
     for s in steptypes:
-        objfunc+=[x[s][d][r]*costs[s][d][r]-reduction[s]*x[s][d][r] for r in mealrecs['recipes']]
+        objfunc+=[x[s][d][r]*costs[s][d][r]-reduction[s]*block[s][d][r]*x[s][d][r] for r in mealrecs['recipes']]
