@@ -1,41 +1,53 @@
 {
-  "Name":"lentilsandfish",
+  "name":"lentilsandfish",
   "ingno": 7,
+  "type" : "pescatarian",
+  "contains" : "fish",
+  "serves" : 4,
+  "mealTime" : ["dinner"],
+  "cookingTime" : 60, 
   "ingredients": [
       {
       "name":"redlentils",
       "quant":500,
-      "unit": "g"
+      "unit": "g",
+      "optional": false
       },
       {
       "name":"fish",
       "quant":500,
-      "unit": "g"
+      "unit": "g",
+      "optional": false
       },
       {
       "name":"corriander",
       "quant":100,
-      "unit": "g"
+      "unit": "g",
+      "optional": false
       },
       {
       "name":"tumeric",
       "quant":1,
-      "unit": "teaspoon"
+      "unit": "teaspoon",
+      "optional": false
       },
       {
       "name":"cayennepepper",
       "quant":0.5,
-      "unit": "teaspoon"
+      "unit": "teaspoon",
+      "optional": false
       },
       {
       "name":"cumin",
       "quant": 1,
-      "unit": "teaspoon"
+      "unit": "teaspoon",
+      "optional": false
       },
       {
       "name":"lemon",
       "quant": 1,
-      "unit": "none"
+      "unit": "none",
+      "optional": false
       }
        ]
   }

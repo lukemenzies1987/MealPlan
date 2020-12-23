@@ -1,6 +1,11 @@
 {
-  "Name":"pastabake",
+  "name":"pastabake",
   "ingno": 7,
+  "type" : "vegetarian",
+  "contains" : "dairy",
+  "serves" : 4,
+  "mealTime" : ["dinner"],
+  "cookingTime" : 60, 
   "ingredients": [
       {
       "name":"pasta",

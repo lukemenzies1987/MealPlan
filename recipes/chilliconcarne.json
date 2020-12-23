@@ -1,46 +1,59 @@
 {
-  "Name":"chilliconcarne",
+  "name":"chilliconcarne",
   "ingno": 8,
+  "type" : "regular",
+  "contains" : "dairy",
+  "serves" : 4,
+  "mealTime" : ["dinner"],
+  "cookingTime" : 60, 
   "ingredients": [
       {
-      "name":"pasta",
-      "quant":500,
-      "unit": "g"
+      "name":"rice",
+      "quant":200,
+      "unit": "g",
+      "optional": false
       },
       {
       "name":"mincemeat",
       "quant":500,
-      "unit": "g"
+      "unit": "g",
+      "optional": false
       },
       {
       "name":"onion",
       "quant":1,
-      "unit": "none"
+      "unit": "none",
+      "optional": false
       },
       {
       "name":"greenpepper",
       "quant":1,
-      "unit": "none"
+      "unit": "none",
+      "optional": false
       },
       {
       "name":"cheese",
       "quant":100,
-      "unit": "g"
+      "unit": "g",
+      "optional": false
       },
       {
       "name":"garlic",
       "quant": 3,
-      "unit": "cloves"
+      "unit": "cloves",
+      "optional": false
       },
       {
       "name":"chillies",
       "quant": 5,
-      "unit": "none"
+      "unit": "none",
+      "optional": false
       },
       {
       "name":"cumin",
       "quant": 1,
-      "unit": "teaspoon"
+      "unit": "teaspoon",
+      "optional": false
       }
        ]
   }

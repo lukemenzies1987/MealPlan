@@ -1,0 +1,53 @@
+{
+  "name":"breakfastwrap",
+  "ingno": 7,
+  "type" : "regular",
+  "contains" : "dairy",
+  "serves" : 1, 
+  "mealTime" : ["dinner"],
+  "cookingTime" : 15,  
+  "ingredients": [
+    {
+      "name":"wraps",
+      "quant":4,
+      "unit": "none",
+      "optional": false
+      },
+      {
+      "name":"egg",
+      "quant":2,
+      "unit": "none",
+      "optional": false
+      },
+      {
+      "name":"cheese",
+      "quant":50,
+      "unit": "g",
+      "optional": true
+      },
+      {
+      "name":"mushrooms",
+      "quant":25,
+      "unit": "g",
+      "optional": false
+      },
+      {
+      "name":"tomatoe",
+      "quant":1,
+      "unit": "none",
+      "optional": true
+      },
+      {
+      "name":"bacon",
+      "quant":2,
+      "unit": "none",
+      "optional": false
+      },
+      {
+      "name":"onion",
+      "quant": 0.5,
+      "unit": "none"
+      "optional": false
+      }
+       ]
+  }

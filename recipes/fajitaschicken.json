@@ -1,6 +1,11 @@
 {
-  "Name":"chickenfajitas",
+  "name":"chickenfajitas",
   "ingno": 8,
+  "type" : "regular",
+  "contains" : "dairy",
+  "serves" : 4,
+  "mealTime" : ["lunch","dinner"],
+  "cookingTime" : 30,
   "ingredients": [
       {
       "name":"wraps",
@@ -10,37 +15,44 @@
       {
       "name":"fajitamix",
       "quant":100,
-      "unit": "g"
+      "unit": "g",
+      "optional": false
       },
       {
       "name":"chickenbreast",
       "quant":500,
-      "unit": "g"
+      "unit": "g",
+      "optional": false
       },
       {
       "name":"redpepper",
       "quant":1,
-      "unit": "none"
+      "unit": "none",
+      "optional": false
       },
       {
       "name":"greenpepper",
       "quant":1,
-      "unit": "none"
+      "unit": "none",
+      "optional": false
       },
       {
       "name":"cheese",
       "quant":100,
-      "unit": "g"
+      "unit": "g",
+      "optional": false
       },
       {
       "name":"onion",
       "quant": 1,
-      "unit": "none"
+      "unit": "none",
+      "optional": false
       },
       {
       "name":"salsa",
       "quant": 100,
-      "unit": "g"
+      "unit": "g",
+      "optional": false
       }
        ]
   }

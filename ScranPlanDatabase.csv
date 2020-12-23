@@ -1,2 +1,3 @@
-pk~sk~fltr~timestamp
-lukemenzies~USER~~2020-10-10 16:17:39.089636
+pk~sk~fltr~timestamp~type~numberOfPeople~dietType~portionSizes~planDuration~freezeIngredients~ingredientFlexibility~otherOptions~dietaryRequirement~dayOptions~updated_timestamp
+lukemenzies~USER~~2020-12-22 20:27:45.848988~~~~~~~~~~~
+test#lukemenzies~MEALPLAN~~~personal~1.0~regular~medium~weekly~True~False~[]~[]~[{'day': 1, 'mealTypes': [{'mealType': 'breakfast', 'cookingTimeLimit': 30}, {'mealType': 'lunch', 'cookingTimeLimit': 60}]}]~2020-12-22 21:48:08.512719
