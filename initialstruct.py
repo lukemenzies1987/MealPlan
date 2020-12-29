@@ -36,7 +36,7 @@ with open(idir+name+'.json') as file:
     ing=json.load(file)
 file.close()
 
-ings=pd.DataFrame(ing['items'])
+ings=pd.DataFrame(ing['items'])#.set_index('name')
 ings.index=ings.name
 del ings['name']
 
@@ -48,9 +48,9 @@ dvals=[0]*noofdays
 #dem=pd.DataFrame(dvals,index=days,columns=['values'])
 dump=pd.DataFrame([[0,[0]]],columns=['ingno','ingredients'],index=['dump'])
 recipes=pd.DataFrame(recs)
-recipes.index=recipes.Name
+recipes.index=recipes['name']
 recipes=recipes.append(dump)
-del recipes['Name']
+del recipes['name']
 rlen=len(recipes)
 rvals=[1]*rlen
 
@@ -86,7 +86,7 @@ costs=makeDict([supl,deml], costsl,0)
 x = LpVariable.dicts("route_", (supl, deml), 
                     lowBound = 0, 
                     cat = LpContinuous)
-
+test3=pd.DataFrame(x)
 xb = LpVariable.dicts("choice_", (deml), 
                     lowBound = 0, 
                     upBound =1,
@@ -165,7 +165,7 @@ for i in dfr.columns:
         except TypeError:
             continue#print(dfr.loc[dfr[i]==c],i)
         
-dfr=dfr.T
+dfr=dfr.T.infer_objects()
 """
 for i in dem:
     df1=df1.apply(lambda x: 0 if not is_numlike(x[i]) else x[i],axis=1)

@@ -112,7 +112,7 @@ def api_create_mealplan():
                  'username': user,
                  'mealPlanName' : meal_plan_name
                  }      
-            #db.save(db.filename)
+            db.save(db.filename)
         else:
             out=status
     return out

@@ -69,7 +69,7 @@ Sum_of_Transporting_Costs: 10000000 route__basil_chickenfajitas
  + 0.15 route__onion_chilliconcarne + 0.15 route__onion_dump
  + 10000000 route__onion_lentilsandfish + 0.15 route__onion_pastabake
  + 0.15 route__onion_spagbol + 10000000 route__pasta_chickenfajitas
- + 0.001 route__pasta_chilliconcarne + 0.001 route__pasta_dump
+ + 10000000 route__pasta_chilliconcarne + 0.001 route__pasta_dump
  + 10000000 route__pasta_lentilsandfish + 0.001 route__pasta_pastabake
  + 0.001 route__pasta_spagbol + 10000000 route__redlentils_chickenfajitas
  + 10000000 route__redlentils_chilliconcarne + 0.0018 route__redlentils_dump
@@ -80,7 +80,7 @@ Sum_of_Transporting_Costs: 10000000 route__basil_chickenfajitas
  + 0.333333333333 route__redpepper_dump
  + 10000000 route__redpepper_lentilsandfish
  + 10000000 route__redpepper_pastabake + 10000000 route__redpepper_spagbol
- + 10000000 route__rice_chickenfajitas + 10000000 route__rice_chilliconcarne
+ + 10000000 route__rice_chickenfajitas + 0.0015 route__rice_chilliconcarne
  + 0.0015 route__rice_dump + 10000000 route__rice_lentilsandfish
  + 10000000 route__rice_pastabake + 10000000 route__rice_spagbol
  + 0.0075 route__salsa_chickenfajitas + 10000000 route__salsa_chilliconcarne
@@ -127,8 +127,8 @@ Quantity_of_ingredients_constrtaints_chilliconcarnemincemeat:
  500 choice__chilliconcarne - route__mincemeat_chilliconcarne <= 0
 Quantity_of_ingredients_constrtaints_chilliconcarneonion:
  choice__chilliconcarne - route__onion_chilliconcarne <= 0
-Quantity_of_ingredients_constrtaints_chilliconcarnepasta:
- 500 choice__chilliconcarne - route__pasta_chilliconcarne <= 0
+Quantity_of_ingredients_constrtaints_chilliconcarnerice:
+ 200 choice__chilliconcarne - route__rice_chilliconcarne <= 0
 Quantity_of_ingredients_constrtaints_lentilsandfishcayennepepper:
  0.5 choice__lentilsandfish - route__cayennepepper_lentilsandfish <= 0
 Quantity_of_ingredients_constrtaints_lentilsandfishcorriander:
@@ -201,8 +201,8 @@ dump_constrtaints_chilliconcarnemincemeat: - 500 choice__chilliconcarne
  + route__mincemeat_chilliconcarne <= 0
 dump_constrtaints_chilliconcarneonion: - choice__chilliconcarne
  + route__onion_chilliconcarne <= 0
-dump_constrtaints_chilliconcarnepasta: - 500 choice__chilliconcarne
- + route__pasta_chilliconcarne <= 0
+dump_constrtaints_chilliconcarnerice: - 200 choice__chilliconcarne
+ + route__rice_chilliconcarne <= 0
 dump_constrtaints_lentilsandfishcayennepepper: - 0.5 choice__lentilsandfish
  + route__cayennepepper_lentilsandfish <= 0
 dump_constrtaints_lentilsandfishcorriander: - 100 choice__lentilsandfish
