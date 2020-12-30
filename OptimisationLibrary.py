@@ -134,7 +134,6 @@ class optimisation(load_files):
         #for b in dem.index:
          #   prob += xb[b] <=1
         for b in self.dem.index[:-1]:
-            
             for it in self.recipes[b:b].ingredients[0]:
                 w=it['name']
                 self.prob +=-self.x[w][b]+it['quant']*self.xb[b]<=0, \

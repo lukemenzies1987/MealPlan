@@ -1,0 +1,148 @@
+{"items":
+  [
+    {
+  "name":"greenpepper",
+  "cost": 1.0,
+  "quant": 3,
+  "unit": "none"
+    },
+    {
+  "name":"redpepper",
+  "cost": 1.0,
+  "quant": 3,
+  "unit": "none"
+    },
+    {
+  "name":"pasta",
+  "cost": 1.0,
+  "quant": 1000,
+  "unit": "g"
+    },
+    {
+  "name":"rice",
+  "cost": 1.5,
+  "quant": 1000,
+  "unit": "g"
+    },
+    {
+  "name":"onion",
+  "cost": 0.15,
+  "quant": 1,
+  "unit": "none"
+    },
+    {
+  "name":"cheese",
+  "cost": 2.15,
+  "quant": 500,
+  "unit": "g"
+    },
+    {
+  "name":"mushrooms",
+  "cost": 0.9,
+  "quant": 200,
+  "unit": "g"
+    },
+    {
+  "name":"fajitamix",
+  "cost": 1.0,
+  "quant": 100,
+  "unit": "g"
+    },
+    {
+  "name":"wraps",
+  "cost": 1.0,
+  "quant": 8,
+  "unit": "none"
+    },
+    {
+  "name":"garlic",
+  "cost": 0.3,
+  "quant": 9,
+  "unit": "cloves"
+    },
+    {
+  "name":"fish",
+  "cost": 4.0,
+  "quant": 1000,
+  "unit": "g"
+    },
+    {
+  "name":"chickenbreast",
+  "cost": 4.0,
+  "quant": 500,
+  "unit": "g"
+    },
+    {
+  "name":"mincemeat",
+  "cost": 4.0,
+  "quant": 500,
+  "unit": "g"
+    },
+    {
+  "name":"salsa",
+  "cost": 1.50,
+  "quant": 200,
+  "unit": "g"
+    },
+    {
+  "name":"cumin",
+  "cost": 1.50,
+  "quant": 200,
+  "unit": "teaspoons"
+    },
+    {
+  "name":"chillies",
+  "cost": 2.0,
+  "quant": 10,
+  "unit": "none"
+    },
+    {
+  "name":"redlentils",
+  "cost": 0.9,
+  "quant": 500,
+  "unit": "g"
+    },
+    {
+  "name":"corriander",
+  "cost": 0.7,
+  "quant": 100,
+  "unit": "g"
+    },
+    {
+  "name":"cayennepepper",
+  "cost": 1.5,
+  "quant": 200,
+  "unit": "teaspoons"
+    },
+    {
+  "name":"cannedtomatoes",
+  "cost": 1.0,
+  "quant":500,
+  "unit": "g"
+    },
+    {
+  "name":"tumeric",
+  "cost": 1.5,
+  "quant": 200,
+  "unit": "teaspoon"
+    },
+    {
+  "name":"basil",
+  "cost": 0.7,
+  "quant": 100,
+  "unit": "g"
+    },
+    {
+  "name":"olives",
+  "cost": 2.0,
+  "quant": 100,
+  "unit": "g"
+    },
+    {
+  "name":"lemon",
+  "cost": 0.4,
+  "quant": 1,
+  "unit": "none"
+    }
+  ]
+  }
