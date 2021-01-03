@@ -129,42 +129,41 @@ Number_of_dinners_constrtaints_%s: choice__chickenfajitas_dinner
  + choice__spagbol = 3
 Number_of_lunchs_constrtaints_%s: choice__chickenfajitas = 1
 Quantity_of_ingredients_constrtaints_chickenfajitas_dinnercheese:
- 6.25 choice__chickenfajitas_dinner - route__cheese_chickenfajitas_dinner <= 0
+ 25 choice__chickenfajitas_dinner - route__cheese_chickenfajitas_dinner <= 0
 Quantity_of_ingredients_constrtaints_chickenfajitas_dinnerchickenbreast:
- 31.25 choice__chickenfajitas_dinner
+ 125 choice__chickenfajitas_dinner
  - route__chickenbreast_chickenfajitas_dinner <= 0
 Quantity_of_ingredients_constrtaints_chickenfajitas_dinnerfajitamix:
- 6.25 choice__chickenfajitas_dinner - route__fajitamix_chickenfajitas_dinner
+ 25 choice__chickenfajitas_dinner - route__fajitamix_chickenfajitas_dinner
  <= 0
 Quantity_of_ingredients_constrtaints_chickenfajitas_dinnergreenpepper:
- 0.0625 choice__chickenfajitas_dinner
- - route__greenpepper_chickenfajitas_dinner <= 0
-Quantity_of_ingredients_constrtaints_chickenfajitas_dinneronion:
- 0.0625 choice__chickenfajitas_dinner - route__onion_chickenfajitas_dinner
+ 0.25 choice__chickenfajitas_dinner - route__greenpepper_chickenfajitas_dinner
  <= 0
+Quantity_of_ingredients_constrtaints_chickenfajitas_dinneronion:
+ 0.25 choice__chickenfajitas_dinner - route__onion_chickenfajitas_dinner <= 0
 Quantity_of_ingredients_constrtaints_chickenfajitas_dinnerredpepper:
- 0.0625 choice__chickenfajitas_dinner - route__redpepper_chickenfajitas_dinner
+ 0.25 choice__chickenfajitas_dinner - route__redpepper_chickenfajitas_dinner
  <= 0
 Quantity_of_ingredients_constrtaints_chickenfajitas_dinnersalsa:
- 6.25 choice__chickenfajitas_dinner - route__salsa_chickenfajitas_dinner <= 0
+ 25 choice__chickenfajitas_dinner - route__salsa_chickenfajitas_dinner <= 0
 Quantity_of_ingredients_constrtaints_chickenfajitas_dinnerwraps:
- 0.25 choice__chickenfajitas_dinner - route__wraps_chickenfajitas_dinner <= 0
+ choice__chickenfajitas_dinner - route__wraps_chickenfajitas_dinner <= 0
 Quantity_of_ingredients_constrtaints_chickenfajitascheese:
- 6.25 choice__chickenfajitas - route__cheese_chickenfajitas <= 0
+ 25 choice__chickenfajitas - route__cheese_chickenfajitas <= 0
 Quantity_of_ingredients_constrtaints_chickenfajitaschickenbreast:
- 31.25 choice__chickenfajitas - route__chickenbreast_chickenfajitas <= 0
+ 125 choice__chickenfajitas - route__chickenbreast_chickenfajitas <= 0
 Quantity_of_ingredients_constrtaints_chickenfajitasfajitamix:
- 6.25 choice__chickenfajitas - route__fajitamix_chickenfajitas <= 0
+ 25 choice__chickenfajitas - route__fajitamix_chickenfajitas <= 0
 Quantity_of_ingredients_constrtaints_chickenfajitasgreenpepper:
- 0.0625 choice__chickenfajitas - route__greenpepper_chickenfajitas <= 0
+ 0.25 choice__chickenfajitas - route__greenpepper_chickenfajitas <= 0
 Quantity_of_ingredients_constrtaints_chickenfajitasonion:
- 0.0625 choice__chickenfajitas - route__onion_chickenfajitas <= 0
+ 0.25 choice__chickenfajitas - route__onion_chickenfajitas <= 0
 Quantity_of_ingredients_constrtaints_chickenfajitasredpepper:
- 0.0625 choice__chickenfajitas - route__redpepper_chickenfajitas <= 0
+ 0.25 choice__chickenfajitas - route__redpepper_chickenfajitas <= 0
 Quantity_of_ingredients_constrtaints_chickenfajitassalsa:
- 6.25 choice__chickenfajitas - route__salsa_chickenfajitas <= 0
+ 25 choice__chickenfajitas - route__salsa_chickenfajitas <= 0
 Quantity_of_ingredients_constrtaints_chickenfajitaswraps:
- 0.25 choice__chickenfajitas - route__wraps_chickenfajitas <= 0
+ choice__chickenfajitas - route__wraps_chickenfajitas <= 0
 Quantity_of_ingredients_constrtaints_chilliconcarnecheese:
  25 choice__chilliconcarne - route__cheese_chilliconcarne <= 0
 Quantity_of_ingredients_constrtaints_chilliconcarnechillies:
@@ -225,44 +224,41 @@ Quantity_of_ingredients_constrtaints_spagbolonion: 0.25 choice__spagbol
 Quantity_of_ingredients_constrtaints_spagbolpasta: 125 choice__spagbol
  - route__pasta_spagbol <= 0
 dump_constrtaints_chickenfajitas_dinnercheese:
- - 6.25 choice__chickenfajitas_dinner + route__cheese_chickenfajitas_dinner
- <= 0
+ - 25 choice__chickenfajitas_dinner + route__cheese_chickenfajitas_dinner <= 0
 dump_constrtaints_chickenfajitas_dinnerchickenbreast:
- - 31.25 choice__chickenfajitas_dinner
+ - 125 choice__chickenfajitas_dinner
  + route__chickenbreast_chickenfajitas_dinner <= 0
 dump_constrtaints_chickenfajitas_dinnerfajitamix:
- - 6.25 choice__chickenfajitas_dinner + route__fajitamix_chickenfajitas_dinner
+ - 25 choice__chickenfajitas_dinner + route__fajitamix_chickenfajitas_dinner
  <= 0
 dump_constrtaints_chickenfajitas_dinnergreenpepper:
- - 0.0625 choice__chickenfajitas_dinner
+ - 0.25 choice__chickenfajitas_dinner
  + route__greenpepper_chickenfajitas_dinner <= 0
 dump_constrtaints_chickenfajitas_dinneronion:
- - 0.0625 choice__chickenfajitas_dinner + route__onion_chickenfajitas_dinner
+ - 0.25 choice__chickenfajitas_dinner + route__onion_chickenfajitas_dinner
  <= 0
 dump_constrtaints_chickenfajitas_dinnerredpepper:
- - 0.0625 choice__chickenfajitas_dinner
- + route__redpepper_chickenfajitas_dinner <= 0
+ - 0.25 choice__chickenfajitas_dinner + route__redpepper_chickenfajitas_dinner
+ <= 0
 dump_constrtaints_chickenfajitas_dinnersalsa:
- - 6.25 choice__chickenfajitas_dinner + route__salsa_chickenfajitas_dinner
- <= 0
-dump_constrtaints_chickenfajitas_dinnerwraps:
- - 0.25 choice__chickenfajitas_dinner + route__wraps_chickenfajitas_dinner
- <= 0
-dump_constrtaints_chickenfajitascheese: - 6.25 choice__chickenfajitas
+ - 25 choice__chickenfajitas_dinner + route__salsa_chickenfajitas_dinner <= 0
+dump_constrtaints_chickenfajitas_dinnerwraps: - choice__chickenfajitas_dinner
+ + route__wraps_chickenfajitas_dinner <= 0
+dump_constrtaints_chickenfajitascheese: - 25 choice__chickenfajitas
  + route__cheese_chickenfajitas <= 0
-dump_constrtaints_chickenfajitaschickenbreast: - 31.25 choice__chickenfajitas
+dump_constrtaints_chickenfajitaschickenbreast: - 125 choice__chickenfajitas
  + route__chickenbreast_chickenfajitas <= 0
-dump_constrtaints_chickenfajitasfajitamix: - 6.25 choice__chickenfajitas
+dump_constrtaints_chickenfajitasfajitamix: - 25 choice__chickenfajitas
  + route__fajitamix_chickenfajitas <= 0
-dump_constrtaints_chickenfajitasgreenpepper: - 0.0625 choice__chickenfajitas
+dump_constrtaints_chickenfajitasgreenpepper: - 0.25 choice__chickenfajitas
  + route__greenpepper_chickenfajitas <= 0
-dump_constrtaints_chickenfajitasonion: - 0.0625 choice__chickenfajitas
+dump_constrtaints_chickenfajitasonion: - 0.25 choice__chickenfajitas
  + route__onion_chickenfajitas <= 0
-dump_constrtaints_chickenfajitasredpepper: - 0.0625 choice__chickenfajitas
+dump_constrtaints_chickenfajitasredpepper: - 0.25 choice__chickenfajitas
  + route__redpepper_chickenfajitas <= 0
-dump_constrtaints_chickenfajitassalsa: - 6.25 choice__chickenfajitas
+dump_constrtaints_chickenfajitassalsa: - 25 choice__chickenfajitas
  + route__salsa_chickenfajitas <= 0
-dump_constrtaints_chickenfajitaswraps: - 0.25 choice__chickenfajitas
+dump_constrtaints_chickenfajitaswraps: - choice__chickenfajitas
  + route__wraps_chickenfajitas <= 0
 dump_constrtaints_chilliconcarnecheese: - 25 choice__chilliconcarne
  + route__cheese_chilliconcarne <= 0

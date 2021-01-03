@@ -47,19 +47,42 @@ nooflunch=1
 noofdinner=3
 
 mealplandetails={'status': True,
- 'message': 'Found meal plan',
- 'details': {'type': 'personal',
-  'numberOfPeople': 1.0,
-  'dietType': 'regular',
-  'portionSizes': 'medium',
-  'planDuration': 'weekly',
-  'freezeIngredients': True,
-  'ingredientFlexibility': False,
-  'otherOptions': [],
-  'dietaryRequirement': [],
-  'dayOptions': [{'day': 1,
-    'mealTypes': [{'mealType': 'breakfast', 'cookingTimeLimit': 30},
-     {'mealType': 'lunch', 'cookingTimeLimit': 60}]}]}}
+                 'message': 'Found meal plan',
+                 'details': {'type': 'personal',
+                  'numberOfPeople': 1.0,
+                  'dietType': 'regular',
+                  'portionSizes': 'medium',
+                  'planDuration': 'weekly',
+                  'freezeIngredients': True,
+                  'ingredientFlexibility': False,
+                  'otherOptions': [],
+                  'dietaryRequirement': [],
+                  'dayOptions': [
+                            {'day': 1,
+                                    'mealTypes': [
+                                    {'mealType': 'lunch', 'cookingTimeLimit': 60
+                                    },
+                                    {'mealType': 'dinner', 'cookingTimeLimit': 60
+                                    }
+                                ]
+                            },
+                            {'day': 2,
+                                'mealTypes': [
+                                    {'mealType': 'dinner', 'cookingTimeLimit': 60
+                                    }
+                                ]
+                            },
+                            {'day': 3,
+                                'mealTypes': [
+                                    {'mealType': 'dinner', 'cookingTimeLimit': 60
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+
+
 
 def mealtimeapply(x,mealtime='lunch'):
     if np.any(pd.isnull(x.mealTime)):
@@ -77,22 +100,25 @@ def update_quant(x,alter=0.25):
     x['quant']=quant
     return x
 
-def adjust_ingredients(x):
+def adjust_ingredients(x,serves,meal_plan_servings):
     if x == [0]:
         return [0]
     else:
-        return list(map(lambda x: update_quant(x),x))
+        alter=meal_plan_servings/serves
+        return list(map(lambda x: update_quant(x,alter=alter),x))
     
 days=['Day_'+str(d+1) for d in range(noofdays)]
 dvals=[0]*noofdays
 #dem=pd.DataFrame(dvals,index=days,columns=['values'])
 dump=pd.DataFrame([[0,[0]]],columns=['ingno','ingredients'],index=['dump'])
 recipes=pd.DataFrame(recs)
+servings=mealplandetails['details']['numberOfPeople']
+list(map(lambda x,y: adjust_ingredients(x,y,servings),recipes.ingredients,recipes.serves))
 recipes.index=recipes['name']
 recipes['Lunch']=recipes.apply(lambda x: mealtimeapply(x), axis=1)
 recipes['Dinner']=recipes.apply(lambda x: mealtimeapply(x,mealtime='dinner'), axis=1)
 
-ents=recipes.loc[(recipes.Lunch==1)&(recipes.Dinner==1)]
+ents=recipes.loc[(recipes.Lunch==1)&(recipes.Dinner==1)].copy()
 ents.mealTime='Dinner'
 ents.index+='_dinner'
 ents.Lunch=0
@@ -103,7 +129,7 @@ del recipes['name']
 rlen=len(recipes)
 rvals=[1]*rlen
 
-list(map(lambda y: adjust_ingredients(y),recipes.ingredients))
+
 
 dem=pd.DataFrame(rvals,index=recipes.index,columns=['values'])
 
@@ -234,11 +260,6 @@ for i in dfr.columns:
             continue#print(dfr.loc[dfr[i]==c],i)
         
 dfr=dfr.T.infer_objects()
-"""
-for i in dem:
-    df1=df1.apply(lambda x: 0 if not is_numlike(x[i]) else x[i],axis=1)
-            
-df1=df1.loc[:, (df1 != 0).any(axis=0)]
-   
-df.append(df1)
-"""
+
+out={}
+
